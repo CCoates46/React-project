@@ -1,0 +1,50 @@
+.Social-Container {
+    background: #eee;
+    padding: 25px 50px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.Social-Title {
+    font-family: sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+a.Social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+}
+
+a.Social:hover {
+    transform: translateY(-2px);
+    display: inline-block;
+  }
+
+.Facebook-social {
+    color: #4968ad;
+    margin: 20px;
+}
+
+.Linkedin-social {
+    color: #49a1eb;
+    margin: 20px;
+  }
+
+.Instagram-social {
+    color: red;
+    margin: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .Social-Container {
+      align-items: center;
+      width:100%;
+      position: absolute;
+      margin-top: 2800px;
+      
+    }
+  }
